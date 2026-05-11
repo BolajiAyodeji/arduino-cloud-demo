@@ -2,9 +2,9 @@
 #include <Arduino_ConnectionHandler.h>
 
 const char DEVICE_LOGIN_NAME[] = "b7e37a48-2fbf-4683-97c0-ed7e66895ca3";
-const char SSID[] = "Wokwi-GUEST";
-const char PASS[] = "";
-const char DEVICE_KEY[] = "OIVeVhEw6lHnv#UvzP?wCgfc2";
+const char SSID[] = SECRET_SSID;
+const char PASS[] = SECRET_OPTIONAL_PASS;
+const char DEVICE_KEY[] = SECRET_DEVICE_KEY;
 
 bool inverterOn;
 float batteryPct;
